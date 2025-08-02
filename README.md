@@ -1,4 +1,4 @@
-# 📺 TV Shows Data Lake Pipeline
+# TV Shows Data Lake Pipeline
 
 Este projeto implementa um pipeline de ingestão e transformação de dados com múltiplas camadas (Bronze → Silver → Gold), utilizando:
 
@@ -10,7 +10,7 @@ Este projeto implementa um pipeline de ingestão e transformação de dados com 
 
 ---
 
-## 📌 Objetivo
+## Objetivo
 
 Processar dados de shows de TV e estruturá-los em diferentes camadas de qualidade de dados:
 
@@ -20,5 +20,5 @@ Processar dados de shows de TV e estruturá-los em diferentes camadas de qualida
 
 ---
 
-## 📁 Estrutura de diretórios no MinIO
+##  Estrutura de diretórios no MinIO
 
