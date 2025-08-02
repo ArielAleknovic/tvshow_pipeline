@@ -1,6 +1,6 @@
 from trino.dbapi import connect
 import pymysql
-from utils import create_silver_tvshows,get_pending_files, mark_as_loaded
+from utils import get_pending_files, create_silver_tvshows, mark_as_loaded
 
 
 def transform_data():
@@ -9,7 +9,7 @@ def transform_data():
         print("Nenhum arquivo pendente para processar.")
         return
 
-
+    # Garante tabela silver criada antes da transformação
     create_silver_tvshows()
 
     conn = connect(
